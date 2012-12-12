@@ -1,0 +1,8 @@
+﻿MATEMÁTICA DINÂMICA
+Projeto interativo da instituição Senac é um trabalho de desenvolvimento com base no aprendizado de outras disciplinas. 
+Desenvolvido por um grupo de cinco integrantes cursando a disciplina do segundo semestre de Bacharelado em ciência da 
+computação, com o intuito de aprimorar não só as técnicas aprendidas, mas também o modo de criar idéias e pensamentos 
+melhores. 
+O Projeto tem foco em um simples jogo de 2 dimensões, feito no compilador "DEV-C" versão "4.9.9.2", 
+utilizando a biblioteca gráfica "Allegro" versão "4.4.0.1", tendo foco de ensinar e praticar o uso de números pares, 
+ímpares e primos, visando o público alvo ser utilizado por crianças e jovens.

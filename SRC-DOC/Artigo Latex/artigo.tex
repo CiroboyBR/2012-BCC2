@@ -1,0 +1,151 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Journal Article
+% LaTeX Template
+% Version 1.0 (25/8/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[twoside]{article}
+
+%\usepackage{lipsum} % Package to generate dummy text throughout this template
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage{hyperref} % For hyperlinks in the PDF
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+\usepackage{titlesec} % Allows customization of titles
+\titleformat{\section}[block]{\large\scshape\centering{\Roman{section}.}}{}{1em}{} % Change the look of the section titles 
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{Projeto Interativo $\bullet$ Bacharelado - Ciência da Computação  $\bullet$ Segundo Semestre} % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+\usepackage{graphics,graphicx}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{Projeto Interativo (PI)}} % Article title
+
+\author{
+\large
+% Your name
+\textsc{Emerson Costa Santos}\\[2mm] 
+\textsc{Eduardo Rodrigues Vasconcelos}\\[2mm] 
+\textsc{Rafael Santos da Silva}\\[2mm]
+\textsc{Felipe Herbst}\\[2mm]
+\textsc{Denis Neves Froes Junior}\\[2mm]
+\normalsize Universidade Senac \\ % Your institution
+\normalsize \href{mailto:syphonemerson@yahoo.com.br}{syphonemerson@yahoo.com.br} \\[2mm] 
+\normalsize \href{mailto:edu23800@hotmail.com}{edu23800@hotmail.com} \\[2mm]
+\normalsize \href{mailto:rafaelsantos2009@hotmail.com}{rafaelsantos2009@hotmail.com} \\[2mm]
+\normalsize \href{mailto:fekipeht@hotmail.com}{fekipeht@hotmail.com} \\[2mm]
+\normalsize \href{mailto:dneves.junior@gmail.com}{dneves.junior@gmail.com} \\[2mm]
+\vspace{-5mm}
+}
+\date{}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle Matemática Dinâmica
+
+\thispagestyle{fancy} % All pages have headers and footers
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+
+\noindent Resumo: Projeto interativo da instituição Senac é um trabalho de desenvolvimento com base no aprendizado de outras disciplinas. Desenvolvido por um grupo de cinco integrantes cursando a disciplina do segundo semestre de Bacharelado em ciência da computação, com o intuito de aprimorar não só as técnicas aprendidas, mas também o modo de criar idéias e pensamentos melhores. 
+O Projeto tem foco em um simples jogo de 2 dimensões, feito no compilador "DEV-C" versão "4.9.9.2", utilizando a biblioteca gráfica "Allegro" versão "4.4.0.1", tendo foco de ensinar e praticar o uso de números pares, ímpares e primos, visando o público alvo ser utilizado por crianças e jovens.
+
+
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\begin{multicols}{2} % Two-column layout throughout the main article text
+
+\section{Introdução}
+
+\lettrine[nindent=0em,lines=3]{N} este artigo pode ser consultado conteúdo sobre um projeto focado no aprendizado virtual interativo, um jogo desenvolvido para crianças e jovens.
+O software consegue ser bem objetivo na questão da "jogabilidade", não é necessário muito tempo para finalizar a proposta do mesmo, mas deve-se levar em consideração que foi construído também com a intenção de evoluir os integrantes deste projeto, por esse motivo o programa é simples, porém efetivo na questão de ensinar a quem jogar, os números pares, ímpares e primos e principalmente praticar esse conhecimento.
+
+%------------------------------------------------
+
+\section{Métodos}
+
+\ As ferramentas utilizadas para o desenvolvimento deste projeto:
+\begin{compactitem}
+\item Compilador de C e C++ "DEV-C 4.9.9.2"
+\item Biblioteca grafica "Allegro 4.4.0.1"
+\item PhotoScape
+\item Microsoft Paint
+\item MAGIX Music Maker 16
+\end{compactitem}
+\ Ao trabalhar com o DEV-C, foi limitado o uso da linguagem "C" dentro do compilador. 
+Utilizando a documentação do Allegro 4 disponibilizada no site: 
+http://alleg.sourceforge.net/ foi 
+possível o aprendizado e a utilização da biblioteca. 
+Para editar as imagens (Personagem, cenários e etc) foi utilizado simultaneamente os programas citados acima, as imagens se baseiam em modelos gratuitos. 
+Sons e trilhas sonoras encontradas no software foram criados a partir de combinações de trechos sonoros, disponíveis no próprio software de edição sonora citado acima.
+
+
+%------------------------------------------------
+
+\section{Resultado}
+
+\ Temos como resultado desse projeto, um jogo interativo que para ser utilizado, o jogador será preciso aprender com precisão o que são os números pares, impares e primos. 
+O jogo é dividido em 3 telas, em cada tendo como objetivo coletar números, nas quais cada uma tem uma regra a ser seguida: 
+Dependendo da tela, somente pode ser coletado um tipo de número: 
+Tela 1 : Ímpares 
+Tela 2 : Pares 
+Tela 3 : Primos 
+No caso de coletar um número contra a regra da tela, o jogador será levado de volta a seleção de telas, que no caso é um corredor com 4 caminhos, sendo um deles de uso apenas para voltar ao menu principal.
+
+
+
+%------------------------------------------------
+
+\section{Conclusão}
+
+\ Quando se perguntado qual foi a maior dificuldade em realizar esse projeto, todos os integrantes do grupo concordam que, utilizar o compilador, ou trabalhar na moldura das imagens ou até no desenvolvimento das trilhas sonoras, não foram um desafio, comparado com decidir uma idéia para o jogo em questão. 
+Foram versões de jogos com idéias inspiradas em games vistos na internet, no começo para aprender o uso das ferramentas com o máximo de precisão, ganhar experiencia para usar no projeto final, mas depois de muitas idéias descartadas, a escolhida se encontra no projeto hoje.
+
+
+%----------------------------------------------------------------------------------------
+
+\end{multicols}
+
+\end{document}

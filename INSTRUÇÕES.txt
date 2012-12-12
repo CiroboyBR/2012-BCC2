@@ -1,0 +1,13 @@
+﻿Para Compilação:
+Dev-c Versão 4.9.9.2 (Compilador)
+Allegro Versão 4.4.0.1 (Biblioteca gráfica)
+
+Artigo:
+MikTex 2.9 (Requisito)
+LEd Beta 0.53 (Compilador \ Editor)
+
+Poster:
+Microsoft office 2003 ou superior
+
+Instalação:
+Executar instalador "Instalação" e seguir as instruções.
